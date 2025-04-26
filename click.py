@@ -25,7 +25,7 @@ def beallitasok_mentese():
     with open(SETTINGS_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f)
 
-def beallitasok_betoltese():
+ beallitasok_betoltese():
     if os.path.exists(SETTINGS_FILE):
         with open(SETTINGS_FILE, "r", encoding="utf-8") as f:
             try:
